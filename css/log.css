@@ -1,0 +1,118 @@
+
+
+#log{
+    background: #000;
+}
+
+#log .page{
+    max-width: 420px;
+    background: #fff;
+    padding: 5rem 3rem;
+    min-height: 360px;
+}
+
+#log .logo{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#log .container-fluid{
+    --bs-gutter-x: 0rem;
+}
+
+#log .log-heading{
+    font-size: 21px;
+    font-weight: normal;
+    color: #000;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+#log .email{
+    border: none;
+    border-bottom: 1.5px solid gray;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#log .password{
+    border: none;
+    border-bottom: 1.5px solid gray;
+    width: 100%;
+}
+
+#log .sign-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+#log .login{
+    background: #517CF5;
+    color: #ffff;
+    border: none;
+    padding: 8px 50px;
+    border-radius: 8px;
+}
+
+#log .Forgot{
+    background: transparent;
+    color: #007bff;
+    border: none;
+    padding: 8px 12px;
+    font-weight: normal;
+}
+
+#log .Forgot:hover{
+    font-weight: 400;
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+#log a{
+    text-decoration: none;
+}
+
+#log .text{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 3rem;
+    align-items: center;
+}
+
+#log .sub-heading{
+    font-weight: normal;
+    font-size: 1rem;
+    color: #000;
+}
+
+#log .sub-heading .span{
+    font-weight: normal;
+    color: #000;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 400px){
+    #log .page{
+        max-width: 420px;
+        background: #fff;
+        padding: 3rem 2rem;
+        min-height: 360px;
+    }
+
+    #log .login{
+        background: #517CF5;
+        color: #ffff;
+        border: none;
+        padding: 8px 40px;
+        border-radius: 8px;
+    }
+
+    #log .logo{
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+}
